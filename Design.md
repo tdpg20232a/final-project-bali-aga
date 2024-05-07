@@ -18,7 +18,7 @@ This study will focus on two VR museums designed to exhibit Balinese traditional
 
 ### Independent Variables
 - **Type of Museum Exhibit:** This variable includes the two different virtual museum settings that will be compared.
-- **Interface Design:** Specific design elements of the VR application that may vary between the two museums.
+- **Interface Design:** Specific design of interaction of the VR application that varies between the two museums.
 
 ### Dependent Variables
 - **Time to Complete the Tour:** This measures how long it takes participants to complete the virtual museum tour.
