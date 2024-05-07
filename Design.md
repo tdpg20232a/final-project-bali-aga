@@ -30,5 +30,5 @@ This study will focus on two VR museums designed to exhibit Balinese traditional
 - The ITQ will be administered before the museum tours to assess baseline immersive tendencies.
 
 ### Subjects
-- University students in the age of 20-22
+- Balinese University students in the age of 20-22
 - Tech savvy
