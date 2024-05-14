@@ -34,3 +34,10 @@ The interactive VR museum enhances user engagement, understanding and retention 
 
 ### Subjects
 - Balinese University students in the age of 20-22 that majoring in Information Technology subject.
+
+
+### Feedbacks
+- Add limitation on subjects
+- Compare and map one to one of the measurement method and the hypothesis. The data should be in interval data. Learn about statistic and tools that handle interval data: MannWithU
+- Add subsection: Apparatus and Material
+- Add more detailed procedure and question + questionairre 
