@@ -17,8 +17,7 @@ This study will focus on two VR museums designed to exhibit Balinese traditional
 - It is hypothesized that the interactive VR museum will result in higher user engagement, better understanding and retention of the information, and higher usability scores compared to the non-interactive VR museum.
 
 ### Independent Variables
-- **Type of Museum Exhibit:** This variable includes the two different virtual museum settings that will be compared.
-- **Interface Design:** Specific design of interaction of the VR application that varies between the two museums.
+- **Type of Museum Exhibit:** This variable includes the two different virtual museum settings that will be compared. We will differentiate design of interaction of the VR application between the two museums.
 
 ### Dependent Variables
 - **Time to Complete the Tour:** This measures how long it takes participants to complete the virtual museum tour.
@@ -30,5 +29,4 @@ This study will focus on two VR museums designed to exhibit Balinese traditional
 - The ITQ will be administered before the museum tours to assess baseline immersive tendencies.
 
 ### Subjects
-- Balinese University students in the age of 20-22
-- Tech savvy
+- Balinese University students in the age of 20-22 that majoring in Information Technology subject.
