@@ -237,12 +237,6 @@ The data collected from the experiment will be analyzed using the Mann-Whitney U
 - **Mann-Whitney U Test**: U = U_value, p = p_value
 ```
 
-### Feedbacks
-- Add limitation on subjects
-- Compare and map one to one of the measurement method and the hypothesis. The data should be in interval data. Learn about statistic and tools that handle interval data: MannWithU
-- Add subsection: Apparatus and Material
-- Add more detailed procedure and question + questionairre 
-
 ### References
 - Witmer, B.G., & Singer, M.J. (1998). Measuring presence in virtual environments: A presence questionnaire. Presence: Teleoperators and Virtual Environments, 7(3), 225-240.
 - Frontiers in Psychology. (2023). Measuring Immersion, Involvement, and Attention Focusing Tendencies in the Mediated Environment: The Applicability of the Immersive Tendencies Questionnaire. [Link to study](https://www.frontiersin.org/articles/10.3389/fpsyg.2023.00001/full)
