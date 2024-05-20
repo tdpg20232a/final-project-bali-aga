@@ -37,7 +37,7 @@ The time participants spend on each museum tour can indicate their level of enga
 ### ITQ (Immersive Tendencies Questionnaire)
 Baseline immersive tendencies will be measured before the tours to account for individual differences in engagement.
 
-## Comprehension and Retention of Information:
+## Comprehension and Retention of Information
 
 ### Post-Tour Question
 The questionn administered after each tour will assess the participants' understanding and retention of the information presented. Higher scores on the post-tour questionnaire for the interactive museum would support H1.
