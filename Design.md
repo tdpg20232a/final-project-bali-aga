@@ -47,6 +47,15 @@ The questionn administered after each tour will assess the participants' underst
 ### SUS (System Usability Scale)
 Participants will complete the SUS after each tour to evaluate the usability of the VR museum applications. Higher SUS scores for the interactive museum would support H1.
 
+## Hypotheses and Measurement Methods Mapping
+
+| Hypothesis            | Measurement Method              | Dependent Variable           | Assessment Tool               |
+|-----------------------|---------------------------------|------------------------------|--------------------------------|
+| User Engagement       | Time to Complete the Tour       | Engagement                   | Time recorded during tour      |
+| User Engagement       | ITQ                             | Baseline immersive tendencies| ITQ scores before tours        |
+| Comprehension & Retention | Post-Tour Questionnaire     | Understanding and Retention  | Questionnaire scores           |
+| Usability             | SUS                             | Usability   
+
 ### Subjects
 - Balinese University students in the age of 20-22 that majoring in Information Technology subject.
 
