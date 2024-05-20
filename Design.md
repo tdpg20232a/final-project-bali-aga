@@ -112,6 +112,131 @@ Based on the subjects, this study will have some limitation
 2. **Cultural Context**: The study focuses on Balinese traditional masks and Balinese students, which may limit the applicability of the results to other cultural contexts or regions. 
 3. **Sample Size**: The study is limited by the number of available participants within the specified demographic.
 
+### Experiment Procedure
+
+#### Preparation
+1. **Recruitment**: Recruit Balinese university students majoring in Information Technology, aged 20-22.
+2. **Briefing**: Provide an overview of the study, including its purpose and what participation involves.
+3. **Consent**: Obtain informed consent from all participants.
+
+#### Baseline Measurement
+1. **ITQ Administration**: Have participants complete the Immersive Tendencies Questionnaire (ITQ) to assess their baseline immersive tendencies.
+
+#### Experiment Sessions
+1. **Session Assignment**: Randomly assign participants to experience either the non-interactive or interactive VR museum first.
+2. **Non-Interactive VR Museum**:
+    - Participants explore the static VR museum with plain sight explanations.
+    - Record the time spent on the tour.
+3. **Interactive VR Museum**:
+    - Participants interact with the VR museum, using features like zooming, rotating masks, and accessing multimedia content.
+    - Record the time spent on the tour.
+
+#### Post-Tour Assessment
+1. **Post-Tour Questionnaire**: Administer a questionnaire to assess participants' understanding and retention of information about the masks.
+2. **SUS Administration**: Have participants complete the System Usability Scale (SUS) to evaluate the usability of the VR application.
+
+#### Debriefing
+1. **Debriefing Session**: Provide a debriefing session to explain the study's purpose and answer any questions.
+2. **Feedback Collection**: Collect feedback from participants about their experience in both VR museum settings.
+
+#### Data Analysis
+1. **Data Compilation**: Compile data from ITQ, time spent, post-tour questionnaire, and SUS scores.
+2. **Statistical Analysis**: Conduct statistical analyses to compare user engagement, comprehension, retention, and usability between the non-interactive and interactive VR museums.
+
+#### Reporting
+1. **Results Interpretation**: Interpret the results in the context of the study's hypotheses.
+2. **Reporting**: Prepare a detailed report of the findings, including statistical outcomes and implications for future VR museum designs.
+
+```mermaid
+graph TD;
+    A[Recruitment] --> B[Briefing]
+    B --> C[Consent]
+    C --> D[Baseline Measurement: ITQ Administration]
+    D --> E[Random Session Assignment]
+    E --> F[Non-Interactive VR Museum]
+    E --> G[Interactive VR Museum]
+    F --> H[Post-Tour Assessment: Questionnaire]
+    G --> H
+    H --> I[SUS Administration]
+    I --> J[Debriefing Session]
+    J --> K[Feedback Collection]
+    K --> L[Data Compilation]
+    L --> M[Statistical Analysis]
+    M --> N[Results Interpretation]
+    N --> O[Reporting]
+
+    subgraph Experiment Sessions
+        F
+        G
+    end
+
+    subgraph Post-Tour Assessment
+        H
+        I
+    end
+
+    subgraph Debriefing
+        J
+        K
+    end
+
+    subgraph Data Analysis
+        L
+        M
+    end
+
+    subgraph Reporting
+        N
+        O
+    end
+```
+
+### Data Analysis
+
+The data collected from the experiment will be analyzed using the Mann-Whitney U test to determine if there are significant differences between the non-interactive and interactive VR museum settings. This non-parametric test is suitable for comparing two independent groups when the assumptions of normality are not met. The steps for conducting the analysis are as follows:
+
+1. **Data Compilation**:
+    - Compile the data from ITQ, time spent on tours, post-tour questionnaires, and SUS scores for both VR museum settings.
+
+2. **Descriptive Statistics**:
+    - Calculate the median and interquartile range (IQR) for each dependent variable in both group.
+
+3. **Mann-Whitney U Test**:
+    - Formulate the null hypothesis (H0): There is no significant difference between the non-interactive and interactive VR museum settings for each dependent variable.
+    - Formulate the alternative hypothesis (H1): There is a significant difference between the non-interactive and interactive VR museum settings for each dependent variable.
+    - Perform the Mann-Whitney U test for each dependent variable using Python.
+
+4. **Interpretation of Results**:
+    - Compare the U statistic to the critical value from the Mann-Whitney U distribution table and p-value
+    - If the p-value is less than the significance level (typically 0.05), reject the null hypothesis in favor of the alternative hypothesis, indicating a significant difference between the groups.
+
+5. **Reporting**:
+    - Report the median, IQR, U statistic, and p-value for each dependent variable.
+    Example:
+```markdown
+### Results
+
+- **Median Engagement Time**:
+  - Non-Interactive VR Museum: X minutes
+  - Interactive VR Museum: Y minutes
+- **Mann-Whitney U Test**: U = U_value, p = p_value
+
+- **Median ITQ Scores**:
+  - Non-Interactive VR Museum: X
+  - Interactive VR Museum: Y
+- **Mann-Whitney U Test**: U = U_value, p = p_value
+
+- **Median Post-Tour Questionnaire Scores**:
+  - Non-Interactive VR Museum: X
+  - Interactive VR Museum: Y
+- **Mann-Whitney U Test**: U = U_value, p = p_value
+
+- **Median SUS Scores**:
+  - Non-Interactive VR Museum: X
+  - Interactive VR Museum: Y
+- **Mann-Whitney U Test**: U = U_value, p = p_value
+```
+
 ### Feedbacks
 - Add limitation on subjects
 - Compare and map one to one of the measurement method and the hypothesis. The data should be in interval data. Learn about statistic and tools that handle interval data: MannWithU
