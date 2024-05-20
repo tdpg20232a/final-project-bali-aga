@@ -22,7 +22,7 @@ The interactive VR museum enhances user engagement, understanding and retention 
 
 
 # Independent Variable
-The knowledge and mask material is gathered from House of Mask and Puppets Setia Darma Gianyar.
+The knowledge and mask material is gathered from House of Mask and Puppets Setia Darma Gianyar. The full list of mask classes can be found in [Mask Knowledge.md](./Mask%20Knowledge.md).
 
 The primary independent variable in this study is the type of VR museum exhibit, which consists of two different settings designed to exhibit Balinese traditional masks.  These settings are defined as follows:
 
