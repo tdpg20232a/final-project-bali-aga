@@ -104,6 +104,12 @@ The study will involve participants who are Balinese university students majorin
 1. **Relevance**: University students in this age range are generally more familiar with digital technologies and more likely to have previous exposure to VR environments, making them suitable candidates for this study.
 2. **Availability**: University students are typically more accessible for academic research and more willing to participate in studies related to educational technology.
 
+Based on the subjects, this study will have some limitation
+
+1. **Generalizability**: The study’s findings may not be generalizable to other age groups or individuals with different educational backgrounds. T
+2. **Cultural Context**: The study focuses on Balinese traditional masks and Balinese students, which may limit the applicability of the results to other cultural contexts or regions. 
+3. **Sample Size**: The study is limited by the number of available participants within the specified demographic.
+
 ### Feedbacks
 - Add limitation on subjects
 - Compare and map one to one of the measurement method and the hypothesis. The data should be in interval data. Learn about statistic and tools that handle interval data: MannWithU
