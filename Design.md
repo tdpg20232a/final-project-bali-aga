@@ -81,7 +81,7 @@ SUS consists of a 10-item questionnaire with five response options for responden
 | User Engagement       | Time to Complete the Tour       | Engagement                   | Time recorded during tour      |
 | User Engagement       | ITQ Questionnaire                           | Baseline immersive tendencies| ITQ scores before tours        |
 | Comprehension & Retention | Mask Knowledge Assesment     | Understanding and Retention  | Questionnaire scores           |
-| Usability             | SUS Questionnaire                             | Usability   
+| Usability             | SUS Questionnaire                             | Usability  | SUS Questionnaire after tour
 
 # Apparatus and Material
 
