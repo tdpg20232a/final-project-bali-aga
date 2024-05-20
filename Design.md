@@ -52,9 +52,9 @@ Participants will complete the SUS after each tour to evaluate the usability of 
 | Hypothesis            | Measurement Method              | Dependent Variable           | Assessment Tool               |
 |-----------------------|---------------------------------|------------------------------|--------------------------------|
 | User Engagement       | Time to Complete the Tour       | Engagement                   | Time recorded during tour      |
-| User Engagement       | ITQ                             | Baseline immersive tendencies| ITQ scores before tours        |
-| Comprehension & Retention | Post-Tour Questionnaire     | Understanding and Retention  | Questionnaire scores           |
-| Usability             | SUS                             | Usability   
+| User Engagement       | ITQ Questionnaire                           | Baseline immersive tendencies| ITQ scores before tours        |
+| Comprehension & Retention | Mask Knowledge Assesment     | Understanding and Retention  | Questionnaire scores           |
+| Usability             | SUS Questionnaire                             | Usability   
 
 ### Subjects
 - Balinese University students in the age of 20-22 that majoring in Information Technology subject.
