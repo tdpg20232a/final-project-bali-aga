@@ -1,7 +1,8 @@
 # Traditional Mask Museum
 
-# Approach
-This study will focus on two VR museums designed to exhibit Balinese traditional masks. The first museum will present these masks in a non-interactive, static display, where explanations of each mask's cultural and historical significance are provided in plain sight. The second museum will allow users to interact with the masks. This interaction includes features like zooming in for detailed textures, rotating for different views, and accessing multimedia descriptions that might include historical context, usage in cultural ceremonies, or associated myths.
+# Abstract
+This study investigates the impact of interactivity in virtual reality (VR) museums on user engagement, learning outcomes, and user experience among university students. Two VR museums showcasing Balinese traditional masks will be created for this purpose. The first museum will feature a static display with plain sight explanations of each mask's cultural and historical significance. The second museum will offer enhanced interactivity, allowing users to virtually hold the masks and access multimedia content, including sound and video explanations. This comparative study aims to determine whether increased interactivity in VR museums leads to better engagement, comprehension, and retention of information, and higher usability scores.
+
 
 # Introduction
 
