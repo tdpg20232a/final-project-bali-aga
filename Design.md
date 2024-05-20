@@ -22,7 +22,9 @@ The interactive VR museum enhances user engagement, understanding and retention 
 
 
 # Independent Variable
-The primary independent variable in this study is the type of VR museum exhibit, which consists of two different settings designed to exhibit Balinese traditional masks. The knowledge and mask material is  These settings are defined as follows:
+The knowledge and mask material is gathered from House of Mask and Puppets Setia Darma Gianyar.
+
+The primary independent variable in this study is the type of VR museum exhibit, which consists of two different settings designed to exhibit Balinese traditional masks.  These settings are defined as follows:
 
 1. **Non-Interactive VR Museum**:
     - This setting presents the masks in a static display format.
