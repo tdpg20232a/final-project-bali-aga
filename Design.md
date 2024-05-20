@@ -20,14 +20,10 @@ There is no significant improvement in user engagement, comprehension and retent
 ## Alternative Hypothesis (H1)
 The interactive VR museum enhances user engagement, understanding and retention of information, and usability scores significantly more than the non-interactive VR museum.
 
-## Independent Variables
+# Independent Variables
 - **Type of Museum Exhibit:** This variable includes the two different virtual museum settings that will be compared. We will differentiate design of interaction of the VR application between the two museums.
 
-## Dependent Variables
-- **Time to Complete the Tour:** This measures how long it takes participants to complete the virtual museum tour.
-- **Understanding of Knowledge:** Assessed via a questionnaire administered after completing each museum tour, this measures the level of knowledge participants retain from the tour.
-
-# Measurement method
+# Dependent Variables
 
 ## User Engagement
 
