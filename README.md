@@ -1,4 +1,4 @@
-# Traditional Mask Museum
+# Evaluating the Impact of Interactivity on User Engagement in Virtual Reality Museums: A Comparative Study
 
 # Introduction
 The integration of virtual reality (VR) technology in museums presents a significant opportunity to enhance user engagement, learning outcomes, and overall user experience. Previous research has shown that VR technology can enhance learning effectiveness and user experience by increasing perceived presence, immersion, realism, and satisfaction​​. However, these outcomes can vary significantly based on the level of interactivity and the design of the VR interface. 
