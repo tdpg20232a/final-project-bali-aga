@@ -104,6 +104,8 @@ To conduct this study, the following apparatus and materials will be used:
 
 8. **Environment Setup**: A quiet room with minimal distractions where participants can use the VR equipment comfortably.
 
+9. **Software**: 2 VR application that show museums with different interaction interface.
+
 # Subjects
 
 The study will involve participants who are Balinese university students majoring in Information Technology, aged 20-22. This demographic is chosen for several reasons:
