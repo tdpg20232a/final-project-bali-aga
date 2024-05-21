@@ -117,7 +117,7 @@ Based on the subjects, this study will have some limitation
 2. **Cultural Context**: The study focuses on Balinese traditional masks and Balinese students, which may limit the applicability of the results to other cultural contexts or regions. 
 3. **Sample Size**: The study is limited by the number of available participants within the specified demographic.
 
-### Experiment Procedure
+# Experiment Procedure
 
 #### Preparation
 1. **Recruitment**: Recruit Balinese university students majoring in Information Technology, aged 20-22.
