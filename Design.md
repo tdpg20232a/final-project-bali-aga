@@ -149,7 +149,7 @@ Based on the subjects, this study will have some limitation
 2. **Statistical Analysis**: Conduct statistical analyses to compare user engagement, comprehension, retention, and usability between the non-interactive and interactive VR museums.
 
 #### Reporting
-1. **Results Interpretation**: Interpret the results in the context of the study's hypotheses.
+1. **Results Interpretation**: Interpret the results in the context of the study's hypotheses. This will be conducted after all of the result of dependent variables is gathered
 2. **Reporting**: Prepare a detailed report of the findings, including statistical outcomes and implications for future VR museum designs.
 
 ```mermaid
