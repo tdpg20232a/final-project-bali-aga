@@ -1,7 +1,12 @@
 # Traditional Mask Museum
 
-# Abstract
-This study will focus on two VR museums designed to exhibit Balinese traditional masks. The first museum will present these masks in a non-interactive, static display, where explanations of each mask's cultural and historical significance are provided in plain sight. The second museum will allow users to interact with the masks. This interaction includes features like zooming in for detailed textures, rotating for different views, and accessing multimedia descriptions that might include historical context, usage in cultural ceremonies, or associated myths.
+# Introduction
+The integration of virtual reality (VR) technology in museums presents a significant opportunity to enhance user engagement, learning outcomes, and overall user experience. Previous research has shown that VR technology can enhance learning effectiveness and user experience by increasing perceived presence, immersion, realism, and satisfaction​​. However, these outcomes can vary significantly based on the level of interactivity and the design of the VR interface. 
+
+This study aims to explore the effects of different levels of interactivity in VR museum exhibits on these variables, specifically focusing on Balinese traditional masks. Two VR museums will be created: one with static displays and plain sight explanations, and another with enhanced interactivity, including features such as holding the masks virtually and multimedia content like sound explanations.
+
+By investigating these differences, this study aims to provide empirical evidence on the impact of VR interactivity in digital museums, contributing to the development of more effective and engaging VR educational tools. This research will utilize quantitative methods to measure engagement, comprehension, and usability, including time spent on tours, questionnaire scores, and System Usability Scale (SUS) scores. The findings will help in understanding how different VR designs can influence user experiences and learning outcomes, thereby supporting the hypothesis that increased interactivity enhances the effectiveness of VR museum exhibits.
+
 
 # Research Questions
 
