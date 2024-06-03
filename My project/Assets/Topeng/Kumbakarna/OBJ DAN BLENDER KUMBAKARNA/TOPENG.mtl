@@ -1,0 +1,24 @@
+# Blender 3.1.0 MTL File: 'TOPENG.blend'
+# www.blender.org
+
+newmtl CONCRETE
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  -o 2 2 2 ..\da9fb859-7cc2-4cd1-93b4-7f853fe3b874.jpg
+
+newmtl textured_0.002
+Ns 0.999999
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  NEW\sudah di data\topeng kumbakarna-poly\textured_0_09IVeUCF.jpg
