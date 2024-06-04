@@ -328,6 +328,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6057678699645970596}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &18201598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 18201599}
+  m_Layer: 0
+  m_Name: Information Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &18201599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18201598}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.958, y: -0.467, z: -10.899891}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1429673422}
+  - {fileID: 1497591411}
+  - {fileID: 671922820}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &21103192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4173,22 +4207,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 18201599}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.985
+      value: -10.943
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.467
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.523
+      value: 4.376891
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -4198,7 +4232,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -4208,7 +4242,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -4228,7 +4262,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_Name
-      value: Frame A
+      value: Information Topeng Gandi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4745,7 +4779,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900482837}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.030473586, z: -0, w: 0.99953556}
   m_LocalPosition: {x: 0, y: 0, z: 0.059}
   m_LocalScale: {x: 0.00080000004, y: 0.0008, z: 0.00080000004}
   m_ConstrainProportionsScale: 0
@@ -4753,10 +4787,10 @@ RectTransform:
   - {fileID: 2025402916}
   - {fileID: 2094687898}
   m_Father: {fileID: 671922820}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 3.493, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.1289978, y: 0}
+  m_AnchoredPosition: {x: -0.119, y: 0}
   m_SizeDelta: {x: 1362, y: 866}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900482839
@@ -7984,22 +8018,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 18201599}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.958
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.467
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.899891
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -8009,7 +8043,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -8551,22 +8585,22 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 18201599}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.86
+      value: -7.818
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.467
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.899891
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -8576,7 +8610,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b210779c1f254e94e8945e6229ef17a1,
         type: 3}
@@ -11505,7 +11539,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2002689837}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1619b4e4a8bb04ee588dd7727e757d15,
         type: 3}
@@ -11545,7 +11579,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1619b4e4a8bb04ee588dd7727e757d15,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1619b4e4a8bb04ee588dd7727e757d15,
         type: 3}
@@ -11575,7 +11609,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1619b4e4a8bb04ee588dd7727e757d15,
         type: 3}
       propertyPath: m_Name
-      value: TOPENG (3)
+      value: TOPENG Gandi
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 1619b4e4a8bb04ee588dd7727e757d15,
         type: 3}
@@ -11592,6 +11626,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1619b4e4a8bb04ee588dd7727e757d15, type: 3}
+--- !u!4 &1973771599 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1619b4e4a8bb04ee588dd7727e757d15,
+    type: 3}
+  m_PrefabInstance: {fileID: 1973771598}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1980091980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8451207993634467064, guid: 7a8ddcc077a7a624e80acd5f9142f59a,
@@ -11737,6 +11777,7 @@ Transform:
   m_Children:
   - {fileID: 232129222}
   - {fileID: 1267010907}
+  - {fileID: 1973771599}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2013197671 stripped
@@ -11875,7 +11916,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Topeng Dewi Sinta
+  m_text: Topeng Gandi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11902,7 +11943,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56.85
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11938,7 +11979,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -315.55005, y: -211.0874, z: -129.96257, w: 100.34972}
+  m_margin: {x: -315.55005, y: -211.0874, z: -121.98804, w: 100.34972}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -13309,8 +13350,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Topeng ini dipakai hanya dalam pertunjukan "Wayang Wong" yakni Drama Tari
-    yang mengambil lakon dari cerita Ramayana.
+  m_text: Gandi adalah sisya (murid) dari tokoh jahat yang bernama " Calon Arang.
+    Cerita Calon Arang ini diambil dari kisah seorang janda beranak satu yang bernama
+    Rangda Ing Girah (janda dari desa girah)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13337,7 +13379,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.5
+  m_fontSize: 31.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -16928,12 +16970,9 @@ SceneRoots:
   - {fileID: 1833495736}
   - {fileID: 1873166229}
   - {fileID: 149036922}
-  - {fileID: 1973771598}
   - {fileID: 1444609930}
   - {fileID: 618463003}
   - {fileID: 1325247539}
   - {fileID: 457902235}
-  - {fileID: 1429673421}
-  - {fileID: 1497591410}
+  - {fileID: 18201599}
   - {fileID: 2002689837}
-  - {fileID: 671922819}
