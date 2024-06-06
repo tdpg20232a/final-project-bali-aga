@@ -14,11 +14,12 @@ public class Interact : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F)){
-            float interactRange = 2f;
+            float interactRange = 0.2F;
             Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
             foreach (Collider collider in colliderArray) {
-                Debug.Log(collider);
-                Debug.Log("LOLOLOLOL");
+                if(collider.TryGetComponent(out PedestalInteractable pedestalInteractable)){
+                    pedestalInteractable.Interact();
+                }
             }
         }
     }
