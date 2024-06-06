@@ -19,3 +19,12 @@ https://docs.google.com/forms/d/e/1FAIpQLSdpuWk7Ldj7ZqRaj2epTN8K21cEoVnwc1fScSgJ
 Responden:
 
 https://forms.gle/xmnsMDXYfPu6CFN89
+
+
+Knowledge assessment
+
+Editor :
+https://forms.gle/Ces7srDQRZVjrg1k6
+
+Responden:
+https://docs.google.com/spreadsheets/d/1nQl8K6yR_XmK6aIWQuHWwzaFbhMIhiazyPnpVgrJQ3k/edit?usp=sharing
