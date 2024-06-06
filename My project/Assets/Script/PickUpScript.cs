@@ -15,6 +15,8 @@ public class PickupScript : MonoBehaviour
     private bool canDrop = true; //this is needed so we don't throw/drop object when rotating the object
     private int LayerNumber; //layer index
     private float interactRange = 2F;
+
+    // public AudioSource soundPlayer;
     
     private Vector3 initialObjectPosition;
 
@@ -48,6 +50,7 @@ public class PickupScript : MonoBehaviour
                     Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
                     foreach (Collider collider in colliderArray) {
                         Debug.Log(hit.transform.gameObject.tag);
+                        Debug.Log(collider.TryGetComponent(out PlayAudio playAudio));
                         //make sure pickup tag is attached
                         if (hit.transform.gameObject.tag == "canPickUp")
                         {
@@ -109,6 +112,10 @@ public class PickupScript : MonoBehaviour
         Debug.Log(pickUpObj.GetComponent<Rigidbody>());
         if (pickUpObj.GetComponent<Rigidbody>()) //make sure the object has a RigidBody
         {
+            if(pickUpObj.TryGetComponent(out PlayAudio playAudio)){
+                playAudio.PlayAudioInformation();
+            }
+            // PlayAudio();
             heldObj = pickUpObj; //assign heldObj to the object that was hit by the raycast (no longer == null)
             heldObjRb = pickUpObj.GetComponent<Rigidbody>(); //assign Rigidbody
             heldObjRb.isKinematic = true;
@@ -120,6 +127,9 @@ public class PickupScript : MonoBehaviour
     }
     void DropObject()
     {
+        if(heldObj.TryGetComponent(out PlayAudio playAudio)){
+            playAudio.TerminateAudioInformation();
+        }
         //re-enable collision with player
         Physics.IgnoreCollision(heldObj.GetComponent<Collider>(), player.GetComponent<Collider>(), false);
         heldObj.layer = 0; //object assigned back to default layer
@@ -182,4 +192,8 @@ public class PickupScript : MonoBehaviour
             //if your player is small, change the -0.5f to a smaller number (in magnitude) ie: -0.1f
         }
     }
+
+    // void PlayAudio() {
+    //     soundPlayer.Play();
+    // }
 }
