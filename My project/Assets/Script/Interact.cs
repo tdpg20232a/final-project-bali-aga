@@ -5,8 +5,10 @@ using UnityEngine;
 public class Interact : MonoBehaviour
 {
     // Start is called before the first frame update
+    private InformationText floatingTextInstance2;
     void Start()
     {
+        floatingTextInstance2 = GetComponent<InformationText>();
         
     }
 
@@ -15,12 +17,14 @@ public class Interact : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F)){
             float interactRange = 0.2F;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
-            foreach (Collider collider in colliderArray) {
-                if(collider.TryGetComponent(out PedestalInteractable pedestalInteractable)){
-                    pedestalInteractable.Interact();
-                }
+            
+            Debug.Log("F Pressed");
+            if (floatingTextInstance2 != null)
+            {
+                Debug.Log("Instance Found");
+                // floatingTextInstance2.ShowInformation(); // Show information
             }
+                    
         }
     }
 }

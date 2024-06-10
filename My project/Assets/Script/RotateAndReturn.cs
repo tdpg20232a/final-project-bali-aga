@@ -19,7 +19,11 @@ public class RotateAndReturn : MonoBehaviour
     private PlayAudio playAudio; // Reference to the PlayAudio script
     private Transform playerTransform;
     private GameObject floatingTextInstance;
+    private InformationText floatingTextInstance2;
     public InputActionProperty zoomAction; // Add this for zoom input
+    
+    private Vector3 initialObjectPosition;
+    private Quaternion initialObjectRotation;
 
     private void Start()
     {
@@ -28,6 +32,7 @@ public class RotateAndReturn : MonoBehaviour
         grabInteractable = GetComponent<XRGrabInteractable>();
         rb = GetComponent<Rigidbody>();
         playAudio = GetComponent<PlayAudio>(); // Get the PlayAudio component
+        floatingTextInstance2 = GetComponent<InformationText>();
 
         // Get the player transform (e.g., camera or controller transform)
         playerTransform = Camera.main.transform; // Adjust as necessary
@@ -77,6 +82,12 @@ public class RotateAndReturn : MonoBehaviour
 
     private void OnGrabbed(SelectEnterEventArgs args)
     {
+        
+        initialObjectPosition = grabInteractable.transform.position;
+        initialObjectRotation = grabInteractable.transform.rotation;
+        
+        Debug.Log(initialObjectPosition);
+        Debug.Log(initialObjectRotation);
         isGrabbed = true;
         rb.isKinematic = true; // Disable physics while grabbing
         Debug.Log("Object grabbed");
@@ -84,6 +95,12 @@ public class RotateAndReturn : MonoBehaviour
         if (playAudio != null)
         {
             playAudio.PlayAudioInformation(); // Play the audio
+        }
+        if (floatingTextInstance2 != null)
+        {
+            Debug.Log("Instance Found");
+            floatingTextInstance2.Show(initialObjectPosition);
+            // floatingTextInstance2.ShowInformation(initialObjectPosition, initialObjectRotation); // Show information
         }
 
         if (floatingTextInstance != null)
@@ -108,6 +125,12 @@ public class RotateAndReturn : MonoBehaviour
         {
             floatingTextInstance.SetActive(false);
         }
+        
+        if (floatingTextInstance2 != null)
+        {
+            floatingTextInstance2.Hide(initialObjectPosition);
+        }
+
     }
 
     private void OnDestroy()
