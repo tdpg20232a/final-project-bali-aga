@@ -1,0 +1,34 @@
+{
+    "name": "XRInputAction",
+    "maps": [
+        {
+            "name": "XRControls",
+            "id": "4b25e511-3aed-42e5-94a6-b48265c79a29",
+            "actions": [
+                {
+                    "name": "Zoom",
+                    "type": "Value",
+                    "id": "ea9407fd-8b3b-4577-8502-a6b432e8dd90",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6db0848b-1ca9-43ca-84f8-558b8370ed05",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
