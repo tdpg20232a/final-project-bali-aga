@@ -1,0 +1,54 @@
+## Discussion on user engagement
+
+### Wilcoxon Signed-Rank Test for Time Spent
+The Wilcoxon Signed-Rank test was conducted to compare the time spent by participants in the interactive and non-interactive museums. The test result showed:
+- **Statistic**: 30.0
+- **p-value**: 0.0844
+
+This p-value is greater than the standard significance level of 0.05, indicating that there is no statistically significant difference in time spent between the interactive and non-interactive museums. Although the interactive museum showed a higher mean time spent, this difference was not statistically significant.
+
+### ANOVA for Order Effect
+An ANOVA was conducted to analyze the effect of the order of joining (first or second) on the time spent in the museum. The results were as follows:
+
+### Model Summary
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Time_Spend   R-squared:                       0.002
+Model:                            OLS   Adj. R-squared:                 -0.034
+Method:                 Least Squares   F-statistic:                   0.05450
+Date:                Mon, 10 Jun 2024   Prob (F-statistic):              0.817
+Time:                        23:43:18   Log-Likelihood:                -137.18
+No. Observations:                  30   AIC:                             278.4
+Df Residuals:                      28   BIC:                             281.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+Intercept        61.0667      6.260      9.756      0.000      48.244      73.889
+C(Order)[T.2]    -2.0667      8.852     -0.233      0.817     -20.200      16.067
+==============================================================================
+Omnibus:                        3.890   Durbin-Watson:                   1.265
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                1.586
+Skew:                          -0.092   Prob(JB):                        0.452
+Kurtosis:                       1.889   Cond. No.                         2.62
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+### ANOVA Table
+                sum_sq    df         F    PR(>F)
+C(Order)     32.033333   1.0  0.054502  0.817105
+Residual  16456.933333  28.0       NaN       NaN
+
+The ANOVA results indicate whether the order in which participants experienced the museums significantly affected the time they spent in them. The p-value associated with the order effect was analyzed to determine its significance.
+
+**Explanation:**
+- If the p-value for the 'Order' variable is less than 0.05, it indicates a statistically significant effect of the order of joining on the time spent in the museum.
+- If the p-value for the 'Order' variable is greater than 0.05, it suggests that the order of joining does not significantly affect the time spent.
+
+In this analysis, the p-value for the order effect was not significant, suggesting that the sequence in which participants experienced the museums did not significantly impact their engagement time.
+
+### Conclusion
+The analysis indicates that while the interactive museum might intuitively seem more engaging, the time spent difference between the interactive and non-interactive museums was not statistically significant based on the Wilcoxon Signed-Rank test. Additionally, the order of joining the museums did not have a significant impact on the time spent, as indicated by the ANOVA results. These findings suggest that other factors, beyond interactivity and order of experience, may play significant roles in determining user engagement in virtual reality museum settings.
