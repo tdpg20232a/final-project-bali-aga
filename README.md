@@ -106,6 +106,9 @@ To conduct this study, the following apparatus and materials will be used:
 
 # Subjects
 
+![WhatsApp Image 2024-06-07 at 13 46 41](https://github.com/tdpg20232a/final-project-bali-aga/assets/28553885/7f04a359-00b1-418d-8589-3b6884bfb283)
+![WhatsApp Image 2024-06-07 at 13 46 40](https://github.com/tdpg20232a/final-project-bali-aga/assets/28553885/cce5a318-1a2e-4344-bbb0-dc7ebdd4288f)
+
 The study will involve participants who are Balinese university students majoring in Information Technology, aged 20-22. This demographic is chosen for several reasons:
 
 1. **Relevance**: University students in this age range are generally more familiar with digital technologies and more likely to have previous exposure to VR environments, making them suitable candidates for this study.
@@ -160,7 +163,7 @@ graph TD;
     D --> E[Random Session Assignment]
     E --> F[Non-Interactive VR Museum]
     E --> G[Interactive VR Museum]
-    F --> H[Post-Tour Assessment: Questionnaire]
+    F --> H[Post-Tour Debriefing]
     G --> H
     H --> I[SUS Administration]
     I --> J[Debriefing Session]
