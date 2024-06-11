@@ -47,13 +47,13 @@ Residual        10514.757124  26.0        NaN       NaN
 
 
 ### Museum_Type 
-The p-value (0.042) is less than 0.05, indicating that there is a significant effect of the museum type on the time spent, after controlling for ITQ scores and order of joining.
+The p-value (0.000725) is less than 0.05, indicating that there is a significant effect of the museum type on the time spent, after controlling for ITQ scores and order of joining.
 
 ### ITQ_Score
-The p-value (0.074) is greater than 0.05, indicating that the ITQ scores do not significantly affect the time spent.
+The p-value (0.596355) is greater than 0.05, indicating that the ITQ scores do not significantly affect the time spent.
 
 ### Order 
-The p-value (0.153) is greater than 0.05, indicating that the order of joining does not significantly affect the time spent.
+The p-value (0.904885) is greater than 0.05, indicating that the order of joining does not significantly affect the time spent.
 
 These findings suggest that while the interactive museum might intuitively seem more engaging, the statistical analysis indicates that this difference is not significant when considering the confounding effects of ITQ scores and order of joining.
 
