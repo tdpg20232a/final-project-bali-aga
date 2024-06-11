@@ -66,17 +66,23 @@ This approach will allow for a focused investigation into how the level of inter
 ### Time to Complete the Tour
 The time participants spend on each museum tour can indicate their level of engagement. Longer times might reflect higher engagement, especially if the time is spent interacting with the exhibits in the interactive VR museum.
 
-### ITQ (Immersive Tendencies Questionnaire)
-The Immersive Tendencies Questionnaire (ITQ), developed by Witmer and Singer (1998), is a widely used tool to measure an individual's predisposition towards immersion in various activities, such as books, movies, and computer games. The ITQ consists of 18 items rated on a 7-point scale (1 = never, 7 = often), and it evaluates three main subdimensions: involvement, attentional focus, and the tendency to play video games. These subdimensions help assess how likely an individual is to become deeply involved in an immersive environment, which is crucial for understanding baseline differences in engagement with VR experiences.
-
-Its use in this study will help account for individual differences in baseline immersive tendencies, ensuring that variations in engagement, comprehension, and usability are attributed to the level of interactivity in the VR museum settings rather than inherent predispositions.
-
 ## Usability Scores:
 
 ### SUS (System Usability Scale)
 The System Usability Scale (SUS) is a reliable, low-cost tool for measuring the usability of a wide range of products and services, including hardware, software, mobile devices, websites, and applications. Developed by John Brooke in 1986, SUS has become a standard in the usability field due to its simplicity and effectiveness.
 
 SUS consists of a 10-item questionnaire with five response options for respondents, ranging from "Strongly agree" to "Strongly disagree." The items alternate between positive and negative statements to reduce response bias. The SUS score is calculated by converting the responses to a 0-100 scale, with higher scores indicating better usability.
+
+## Confounding Variables
+
+In any study, confounding variables are factors other than the independent variable that might affect the dependent variable. Identifying and controlling for these variables is crucial to ensure the validity of the study's findings. In this study, potential confounding variables include:
+
+1. **Immersive Tendencies (ITQ Scores)**:
+    - Individual differences in immersive tendencies can influence how engaged participants are with the VR museum exhibits, regardless of the interactivity level. By measuring ITQ scores before the tours, we can control for these differences and better isolate the effect of the VR museum type on engagement.
+
+2. **Order of Joining**:
+    - The sequence in which participants experience the interactive and non-interactive museums might influence their perceptions and engagement. For example, participants might be more engaged in the first experience due to novelty effects. Counterbalancing the order of joining and controlling for it in the analysis will help mitigate this potential confounding effect.
+
 
 ## Hypotheses and Measurement Methods Mapping
 
@@ -199,51 +205,26 @@ graph TD;
     end
 ```
 
-### Data Analysis
-
-The data collected from the experiment will be analyzed using the Mann-Whitney U test to determine if there are significant differences between the non-interactive and interactive VR museum settings. This non-parametric test is suitable for comparing two independent groups when the assumptions of normality are not met. The steps for conducting the analysis are as follows:
-
 1. **Data Compilation**:
     - Compile the data from ITQ, time spent on tours, post-tour questionnaires, and SUS scores for both VR museum settings.
 
 2. **Descriptive Statistics**:
-    - Calculate the median and interquartile range (IQR) for each dependent variable in both group.
+    - Calculate the mean, standard deviation, median, and interquartile range (IQR) for each dependent variable in both groups.
 
-3. **Mann-Whitney U Test**:
-    - Formulate the null hypothesis (H0): There is no significant difference between the non-interactive and interactive VR museum settings for each dependent variable.
-    - Formulate the alternative hypothesis (H1): There is a significant difference between the non-interactive and interactive VR museum settings for each dependent variable.
-    - Perform the Mann-Whitney U test for each dependent variable using Python.
+3. **ANCOVA for User Engagement**:
+    - Formulate the null hypothesis (H0): There is no significant difference in user engagement between the non-interactive and interactive VR museum settings after controlling for covariates.
+    - Formulate the alternative hypothesis (H1): There is a significant difference in user engagement between the non-interactive and interactive VR museum settings after controlling for covariates.
+    - Perform ANCOVA to evaluate the effect of VR museum setting on user engagement while controlling for potential covariates (e.g., age, prior experience with VR).
 
-4. **Interpretation of Results**:
-    - Compare the U statistic to the critical value from the Mann-Whitney U distribution table and p-value
+4. **Wilcoxon Signed-Rank Test for Usability**:
+    - Formulate the null hypothesis (H0): There is no significant difference in usability scores between the non-interactive and interactive VR museum settings.
+    - Formulate the alternative hypothesis (H1): There is a significant difference in usability scores between the non-interactive and interactive VR museum settings.
+    - Perform the Wilcoxon signed-rank test to compare the usability scores of the two VR museum settings.
+
+5. **Interpretation of Results**:
+    - For ANCOVA: Evaluate the F-statistic and p-value to determine if there is a significant difference in user engagement after controlling for covariates.
+    - For the Wilcoxon signed-rank test: Compare the test statistic to the critical value and p-value to determine if there is a significant difference in usability scores.
     - If the p-value is less than the significance level (typically 0.05), reject the null hypothesis in favor of the alternative hypothesis, indicating a significant difference between the groups.
-
-5. **Reporting**:
-    - Report the median, IQR, U statistic, and p-value for each dependent variable.
-    Example:
-```markdown
-### Results
-
-- **Median Engagement Time**:
-  - Non-Interactive VR Museum: X minutes
-  - Interactive VR Museum: Y minutes
-- **Mann-Whitney U Test**: U = U_value, p = p_value
-
-- **Median ITQ Scores**:
-  - Non-Interactive VR Museum: X
-  - Interactive VR Museum: Y
-- **Mann-Whitney U Test**: U = U_value, p = p_value
-
-- **Median Post-Tour Questionnaire Scores**:
-  - Non-Interactive VR Museum: X
-  - Interactive VR Museum: Y
-- **Mann-Whitney U Test**: U = U_value, p = p_value
-
-- **Median SUS Scores**:
-  - Non-Interactive VR Museum: X
-  - Interactive VR Museum: Y
-- **Mann-Whitney U Test**: U = U_value, p = p_value
-```
 
 ### References
 - Pei, X., Fu, S., & Jiang, T. (Year). An empirical study on user experience evaluation of VR interface in digital museums. *School of Information Management, Wuhan University, Wuhan, Hubei, China*; *Center for Studies of Information Resources, Wuhan University, Wuhan, Hubei, China*.
