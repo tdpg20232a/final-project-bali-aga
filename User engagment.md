@@ -36,11 +36,14 @@ Notes:
 ```
 
 ### ANCOVA Table
+
+```
                       sum_sq    df          F    PR(>F)
 C(Museum_Type)   5936.288095   1.0  14.678750  0.000725
 C(Order)          116.288095   1.0   0.287547  0.596355
 ITQ_Score           5.888115   1.0   0.014560  0.904885
 Residual        10514.757124  26.0        NaN       NaN
+```
 
 
 Museum_Type: The p-value (0.042) is less than 0.05, indicating that there is a significant effect of the museum type on the time spent, after controlling for ITQ scores and order of joining.
