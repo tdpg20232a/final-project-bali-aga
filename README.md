@@ -89,7 +89,6 @@ In any study, confounding variables are factors other than the independent varia
 | Hypothesis            | Measurement Method              | Dependent Variable           | Assessment Tool               |
 |-----------------------|---------------------------------|------------------------------|--------------------------------|
 | User Engagement       | Time to Complete the Tour       | Engagement                   | Time recorded during tour      |
-| User Engagement       | ITQ Questionnaire                           | Baseline immersive tendencies| ITQ scores before tours        |
 | Usability             | SUS Questionnaire                             | Usability  | SUS Questionnaire after tour
 
 # Apparatus and Material
