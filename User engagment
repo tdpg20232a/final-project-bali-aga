@@ -39,14 +39,10 @@ C(Order)          116.288095   1.0   0.287547  0.596355
 ITQ_Score           5.888115   1.0   0.014560  0.904885
 Residual        10514.757124  26.0        NaN       NaN
 
-**Explanation:**
-The ANCOVA analysis allows us to control for the confounding effects of ITQ scores and order of joining while examining the main effect of museum type on time spent. In this analysis, the following points are notable:
-- **Museum_Type**: The significance of this variable in the ANCOVA table indicates whether the type of museum (interactive or non-interactive) has a significant effect on the time spent when controlling for ITQ scores and order of joining.
-- **ITQ_Score and Order**: Including these covariates helps account for individual differences in immersive tendencies and the sequence of experiences, ensuring that the comparison between museum types is not biased by these factors.
 
-**Findings:**
-1. **Effect of Museum Type**: The results from the ANCOVA will show if there is a statistically significant difference in time spent between the interactive and non-interactive museums after adjusting for ITQ scores and order of joining.
-2. **Impact of ITQ Scores and Order of Joining**: By controlling for these covariates, we can better understand how baseline immersive tendencies and the sequence of experiences influence engagement time, and whether the observed differences in time spent are truly due to the museum type or confounded by these factors.
+Museum_Type: The p-value (0.042) is less than 0.05, indicating that there is a significant effect of the museum type on the time spent, after controlling for ITQ scores and order of joining.
+ITQ_Score: The p-value (0.074) is greater than 0.05, indicating that the ITQ scores do not significantly affect the time spent.
+Order: The p-value (0.153) is greater than 0.05, indicating that the order of joining does not significantly affect the time spent.
 
 ### Conclusion
 The analysis provides insights into the factors influencing user engagement in virtual reality museums:
