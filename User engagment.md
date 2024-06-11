@@ -4,6 +4,8 @@
 An ANCOVA was conducted to analyze the effect of museum type (interactive vs. non-interactive) on the time spent while controlling for ITQ scores and order of joining. The results were as follows:
 
 ### Model Summary
+
+```
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:             Time_Spend   R-squared:                       0.362
@@ -31,6 +33,7 @@ Kurtosis:                       1.757   Cond. No.                         32.6
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+```
 
 ### ANCOVA Table
                       sum_sq    df          F    PR(>F)
