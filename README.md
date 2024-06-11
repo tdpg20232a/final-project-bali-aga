@@ -1,21 +1,20 @@
-# Evaluating the Impact of Interactivity on User Engagement in Virtual Reality Museums: A Comparative Study
+# Evaluating the Impact of Interactivity on User Engagement and System Usability in Virtual Reality Museums: A Comparative Study
 
 # Introduction
 The integration of virtual reality (VR) technology in museums presents a significant opportunity to enhance user engagement, learning outcomes, and overall user experience. Previous research has shown that VR technology can enhance learning effectiveness and user experience by increasing perceived presence, immersion, realism, and satisfaction​​. However, these outcomes can vary significantly based on the level of interactivity and the design of the VR interface. 
 
 This study aims to explore the effects of different levels of interactivity in VR museum exhibits on these variables, specifically focusing on Balinese traditional masks. Two VR museums will be created: one with static displays and plain sight explanations, and another with enhanced interactivity, including features such as holding the masks virtually and multimedia content like sound explanations.
 
-By investigating these differences, this study aims to provide empirical evidence on the impact of VR interactivity in digital museums, contributing to the development of more effective and engaging VR educational tools. This research will utilize quantitative methods to measure engagement, comprehension, and usability, including time spent on tours, questionnaire scores, and System Usability Scale (SUS) scores. The findings will help in understanding how different VR designs can influence user experiences and learning outcomes, thereby supporting the hypothesis that increased interactivity enhances the effectiveness of VR museum exhibits.
+By investigating these differences, this study aims to provide empirical evidence on the impact of VR interactivity in digital museums, contributing to the development of more effective and engaging VR educational tools. This research will utilize quantitative methods to measure engagement and system usability, including time spent on tours, and System Usability Scale (SUS) scores. The findings will help in understanding how different VR designs can influence user experiences and system usability, thereby supporting the hypothesis that increased interactivity enhances the effectiveness of VR museum exhibits.
 
 
 # Research Questions
 
 **Main Question:**
-- How do different levels of interactivity in VR museum exhibits affect user engagement, learning outcomes, and user experience among university students?
+- How do different levels of interactivity in VR museum exhibits affect user engagement and system usability?
 
 **Sub-Questions:**
 1. Does the interactive VR museum enhance user engagement compared to the non-interactive VR museum?
-2. What is the impact of interactivity on the understanding and retention of information about Balinese traditional masks?
 3. How does the ease of use differ between the interactive and non-interactive VR museum exhibits?
 
 # Hypothesis
@@ -36,7 +35,9 @@ The primary independent variable in this study is the type of VR museum exhibit,
     - Explanations of each mask’s cultural and historical significance are provided in plain sight, similar to traditional museum exhibits.
     - Users can navigate through the museum but cannot interact with the masks beyond viewing them and reading the provided descriptions.
 
-    <img width="749" alt="Screenshot 2024-05-21 at 05 37 17" src="https://github.com/tdpg20232a/final-project-bali-aga/assets/28553885/da470a50-b7ae-414f-8bac-4d01530f3a83">
+
+https://github.com/tdpg20232a/final-project-bali-aga/assets/28553885/675b3a3b-4ec1-4b6e-80b1-ed8ed01eb872
+
 
 2. **Interactive VR Museum**:
     - This setting enhances user interactivity with the exhibits.
@@ -44,7 +45,10 @@ The primary independent variable in this study is the type of VR museum exhibit,
     - Interactive features include zooming in for detailed textures, rotating the masks for different views, and accessing multimedia descriptions.
     - The multimedia content includes audio explanations that provide historical context, usage in cultural ceremonies, and associated myths.
 
-      https://github.com/tdpg20232a/final-project-bali-aga/assets/28553885/e265ebba-dae7-4921-a08f-ba5537350644
+
+https://github.com/tdpg20232a/final-project-bali-aga/assets/28553885/88668395-d8c4-4868-8b2d-354e3dfce7ee
+
+
 
 By differentiating the design of the VR application between these two settings, this study aims to assess how varying levels of interactivity influence user engagement, learning outcomes, and overall user experience. The independent variable's manipulation allows for a direct comparison between a traditional, non-interactive presentation and an immersive, interactive experience.
 
@@ -67,11 +71,6 @@ The Immersive Tendencies Questionnaire (ITQ), developed by Witmer and Singer (19
 
 Its use in this study will help account for individual differences in baseline immersive tendencies, ensuring that variations in engagement, comprehension, and usability are attributed to the level of interactivity in the VR museum settings rather than inherent predispositions.
 
-## Comprehension and Retention of Information
-
-### Post-Tour Question
-The questionn administered after each tour will assess the participants' understanding and retention of the information presented. Higher scores on the post-tour questionnaire for the interactive museum would support H1.
-
 ## Usability Scores:
 
 ### SUS (System Usability Scale)
@@ -85,7 +84,6 @@ SUS consists of a 10-item questionnaire with five response options for responden
 |-----------------------|---------------------------------|------------------------------|--------------------------------|
 | User Engagement       | Time to Complete the Tour       | Engagement                   | Time recorded during tour      |
 | User Engagement       | ITQ Questionnaire                           | Baseline immersive tendencies| ITQ scores before tours        |
-| Comprehension & Retention | Mask Knowledge Assesment     | Understanding and Retention  | Questionnaire scores           |
 | Usability             | SUS Questionnaire                             | Usability  | SUS Questionnaire after tour
 
 # Apparatus and Material
