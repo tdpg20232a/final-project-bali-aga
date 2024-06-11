@@ -46,13 +46,14 @@ Residual        10514.757124  26.0        NaN       NaN
 ```
 
 
-Museum_Type: The p-value (0.042) is less than 0.05, indicating that there is a significant effect of the museum type on the time spent, after controlling for ITQ scores and order of joining.
-ITQ_Score: The p-value (0.074) is greater than 0.05, indicating that the ITQ scores do not significantly affect the time spent.
-Order: The p-value (0.153) is greater than 0.05, indicating that the order of joining does not significantly affect the time spent.
+### Museum_Type 
+The p-value (0.042) is less than 0.05, indicating that there is a significant effect of the museum type on the time spent, after controlling for ITQ scores and order of joining.
 
-### Conclusion
-The analysis provides insights into the factors influencing user engagement in virtual reality museums:
-- **ANCOVA**: By controlling for ITQ scores and order of joining, the ANCOVA provides a more nuanced understanding of the impact of museum type on engagement time. The significance of the museum type variable in the ANCOVA table indicates whether the difference in engagement time between museum types is robust after accounting for individual differences in immersive tendencies and the order of experiences.
+### ITQ_Score
+The p-value (0.074) is greater than 0.05, indicating that the ITQ scores do not significantly affect the time spent.
 
-These findings suggest that while the interactive museum might intuitively seem more engaging, the statistical analysis indicates that this difference is not significant when considering the confounding effects of ITQ scores and order of joining. Future studies could explore other factors that might influence user engagement and further refine the methods to control for confounding variables.
+### Order 
+The p-value (0.153) is greater than 0.05, indicating that the order of joining does not significantly affect the time spent.
+
+These findings suggest that while the interactive museum might intuitively seem more engaging, the statistical analysis indicates that this difference is not significant when considering the confounding effects of ITQ scores and order of joining.
 
