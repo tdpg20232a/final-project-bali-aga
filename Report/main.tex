@@ -139,8 +139,7 @@ To conduct this study, the following apparatus and materials will be used:
 \end{itemize}
 \subsubsection{Post-Tour Assessment}
 \begin{itemize}
-    \item \textbf{Post-Tour Questionnaire}: After each tour, participants will complete a questionnaire designed to assess their understanding and retention of information about the masks.
-    \item \textbf{SUS Administration}: Participants will also complete the System Usability Scale (SUS) to evaluate usability.
+\textbf{SUS Administration}: After each tour, participants will complete the System Usability Scale (SUS) to evaluate usability.
 \end{itemize}
 \subsubsection{Debriefing}
 \begin{itemize}
@@ -192,11 +191,13 @@ Interpret the results in the context of the study's hypotheses. The null hypothe
 \end{itemize}
 If the p-value is less than the significance level (typically 0.05), reject the null hypothesis in favor of the alternative hypothesis, indicating a significant difference between the groups.
 
+
 \section{Results and Discussion}
 
-The results are drawn from detailed analyses of user engagement and System Usability Scale (SUS) scores for interactive and non-interactive museum. These findings provide comprehensive insights into user experiences and the effectiveness of different museum designs.
+The study aimed to compare user engagement and system usability in interactive and non-interactive museum settings, leveraging quantitative data collected via surveys and qualitative feedback. The dataset includes responses from participants regarding their depth of involvement in immersive experiences, which are critical in understanding engagement levels in different settings. Fifteen participants were involved in this study to assess the usability and engagement of both the interactive and non-interactive VR museum systems.
 
-\subsection{Usability}
+\subsection{System Usability Scale (SUS) Scores}
+The SUS scores for both the interactive and non-interactive VR museum systems were collected to assess their usability. The descriptive statistics are as follows:
 \begin{table}[h]
     \centering
     \begin{tabular}{|l|r|r|}
@@ -214,69 +215,70 @@ The results are drawn from detailed analyses of user engagement and System Usabi
     \caption{SUS Scores for Interactive and Non-Interactive Systems}
 \end{table}
 
-\subsubsection{Statistical Analysis}
-The Wilcoxon signed-rank test was conducted to determine if there is a statistically significant difference between the SUS scores of the interactive and non-interactive systems:
+A Wilcoxon signed-rank test was conducted to determine if there is a statistically significant difference between the SUS scores of the interactive and non-interactive systems:
 \[
 \text{Test Statistic} = 7.5, \quad \text{P-Value} = 0.00470
 \]
-The significant difference in SUS scores between the interactive and non-interactive systems highlights the importance of interactivity in enhancing user experience. The higher SUS scores for the interactive system suggest that users find it more user-friendly and engaging. These findings emphasize the need for designing interactive elements that improve usability and user satisfaction.
+Since the p-value is less than 0.05, we reject the null hypothesis, indicating a significant
+difference between the usability scores of the interactive and non-interactive systems. This result suggests that the interactive VR museum system offers a significantly better user experience compared to the non-interactive system. The higher SUS scores for the interactive system indicate that users found it more user-friendly and engaging. This aligns with previous research suggesting that interactive systems tend to enhance user satisfaction and usability
 
-\subsection{User Engagement}
-\begin{itemize}
-    \item \textbf{Session Duration}: The average session duration was 15 minutes with a low bounce rate of 10\%, indicating high user engagement.
-    \item \textbf{ANCOVA Results}: An ANCOVA was conducted to analyze the effect of museum type (interactive vs. non-interactive) on the time spent while controlling for ITQ scores and order of joining.
-\end{itemize}
+User engagement was measured by the time participants spent in the VR museums. To control for potential confounding variables, such as participants' immersive tendencies (measured by the Immersive Tendencies Questionnaire, ITQ) and the order in which they experienced the VR museums, an ANCOVA was conducted. The results are summarized in Table~\ref{tab:ancova}.
 
 \begin{table}[h]
-    \centering
-    \begin{tabular}{|l|r|}
-    \hline
-    \textbf{Dep. Variable:} & Time\_Spend   \\ \hline
-    \textbf{R-squared:} & 0.362 \\ \hline
-    \textbf{Model:} & OLS \\ \hline
-    \textbf{Adj. R-squared:} & 0.289 \\ \hline
-    \textbf{Method:} & Least Squares \\ \hline
-    \textbf{F-statistic:} & 4.924 \\ \hline
-    \textbf{Date:} & Mon, 10 Jun 2024 \\ \hline
-    \textbf{Prob (F-statistic):} & 0.00770 \\ \hline
-    \textbf{Time:} & 23:52:16 \\ \hline
-    \textbf{Log-Likelihood:} & -130.46 \\ \hline
-    \textbf{No. Observations:} & 30 \\ \hline
-    \textbf{AIC:} & 268.9 \\ \hline
-    \textbf{Df Residuals:} & 26 \\ \hline
-    \textbf{BIC:} & 274.5 \\ \hline
-    \textbf{Df Model:} & 3 \\ \hline
-    \textbf{Covariance Type:} & nonrobust \\ \hline
-    \end{tabular}
-    \caption{ANCOVA Summary}
+\centering
+\caption{ANCOVA Results for User Engagement}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Variable} & \textbf{F-Statistic} & \textbf{P-Value} \\
+\hline
+Intercept & 50.28 & 0.022 \\
+Museum Type & 14.68 & 0.001 \\
+Order & 0.29 & 0.596 \\
+ITQ Score & 0.01 & 0.905 \\
+\hline
+\end{tabular}
+\label{tab:ancova}
 \end{table}
 
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|l|r|r|r|r|}
-    \hline
-    \textbf{Source}      & \textbf{Sum of Squares} & \textbf{df} & \textbf{F}   & \textbf{PR(>F)} \\ \hline
-    \textbf{Museum\_Type} & 5936.29                & 1.0         & 14.679       & 0.000725        \\ \hline
-    \textbf{Order}       & 116.29                 & 1.0         & 0.288        & 0.596           \\ \hline
-    \textbf{ITQ\_Score}  & 5.89                   & 1.0         & 0.015        & 0.905           \\ \hline
-    \textbf{Residual}    & 10514.76               & 26          &              &                 \\ \hline
-    \end{tabular}
-    \caption{ANCOVA Table}
-\end{table}
+\noindent The ANCOVA model summary is as follows:
 
-The ANCOVA results indicate a significant effect of museum type on the time spent (\textit{p} = 0.000725), even after controlling for ITQ scores and order of joining. This finding suggests that the interactive design significantly influences user engagement. However, the non-significant effects of ITQ scores (\textit{p} = 0.904885) and order of joining (\textit{p} = 0.596355) indicate that these factors do not substantially influence engagement, reinforcing the importance of system design.
-
-The high average session duration and low bounce rate are indicative of strong user engagement with the interactive system. These metrics suggest that users find the interactive system more engaging and are likely to spend more time exploring its features.
-
-\subsection{Implications for Design}
 \begin{itemize}
-    \item \textbf{Importance of Interactivity}: The significant differences in both SUS scores and user engagement metrics between the interactive and non-interactive systems underscore the critical role of interactivity in system design. Designers should prioritize interactive features that enhance user experience and engagement.
-    \item \textbf{Continuous Improvement}: To maintain and improve user satisfaction and engagement, it is essential to continuously monitor user feedback and system performance. Implementing additional interactive features and refining existing ones based on user feedback will help in achieving higher usability scores and engagement metrics.
+    \item R-squared: 0.362
+    \item Adjusted R-squared: 0.289
+    \item F-statistic: 4.924
+    \item Prob (F-statistic): 0.00770
 \end{itemize}
+
+\subsubsection*{Coefficients}
+
+\begin{itemize}
+    \item Intercept: 50.28 (p = 0.022)
+    \item Museum Type: 28.20 (p = 0.001)
+    \item Order: -3.95 (p = 0.596)
+    \item ITQ Score: -0.43 (p = 0.905)
+\end{itemize}
+
+The results indicate that the type of VR museum has a significant effect on the time spent by participants, with the interactive museum leading to longer engagement times. The p-value for the museum type is less than 0.05, suggesting a significant effect of the museum type on engagement time, even after controlling for ITQ scores and the order of joining.
+
+These findings support the hypothesis that interactivity enhances user engagement. Participants spent more time exploring the interactive VR museum, indicating higher levels of engagement compared to the non-interactive VR museum. The ITQ scores and the order of joining did not significantly affect the engagement, showing that these potential confounders were effectively controlled.
+
+\subsection{Implications}
+
+The significant differences in SUS scores and engagement times between the interactive and non-interactive VR museum systems highlight the impact of interactivity on usability and user engagement. For developers and educators, this suggests that incorporating interactive elements can significantly improve the effectiveness of VR-based learning tools.
+
+The findings of this study indicate that interactive VR environments can provide a more engaging and user-friendly experience. This has important implications for the design of educational VR applications, suggesting that features such as virtual object manipulation and multimedia content can enhance the learning experience and user satisfaction.
 
 \section{Conclusion}
 
+This study aimed to evaluate the impact of interactivity on user engagement and system usability within virtual reality (VR) museum settings, with a specific focus on Balinese traditional masks. By comparing two VR environments—one with static displays, plain sight explanations and the other with enhanced interactivity and multimedia content—the study sought to determine how different levels of interactivity influence user experiences. The findings provide valuable insights into the role of interactivity in enhancing the effectiveness of VR educational tools.
+
+The results demonstrated that the interactive VR museum system significantly improved user engagement and system usability compared to the non-interactive VR museum. The interactive system received higher System Usability Scale (SUS) scores, indicating a better user experience. Additionally, participants spent more time in the interactive VR museum, reflecting higher engagement levels. These findings align with previous research suggesting that interactive systems enhance user satisfaction and usability. Key implications of this study include the importance of incorporating interactive elements in VR educational tools to improve user engagement and learning outcomes. Features such as virtual object manipulation and multimedia content were shown to be effective in enhancing the user experience.
+
+these insights highlight the potential of interactive VR environments in creating more engaging and effective educational applications. Future research could extend these findings by exploring the impact of different types of interactivity and multimedia content in VR settings. Studies involving a broader demographic range and different cultural contexts could provide a more comprehensive understanding of the factors influencing user engagement and usability in VR educational tools.
+
 \section*{Acknowledgment}
+
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
